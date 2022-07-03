@@ -5,3 +5,4 @@
 - [fractal_rect](./fractal_rect)
 - [nested_rect](./nested_rect)
 - [rotate](./rotate)
+- [random](./random)
