@@ -9,8 +9,12 @@ function setup() {
   noStroke(); //枠線なし
   fill(0, 127, 255); //塗りの色
   for (let index = 0; index < nball; index++) {
-    loc[index] = createVector(random(0, 300), random(0, 300))
-    vel[index] = createVector(random(-10, 10), random(-10, 10))
+    loc[index] = createVector(
+      random(0, windowWidth), random(0, windowHeight)
+    )
+    vel[index] = createVector(
+      random(-10, 10), random(-10, 10)
+    )
   }
 }
 
