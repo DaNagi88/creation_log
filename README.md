@@ -7,3 +7,4 @@
 - [rotate](./rotate)
 - [random_number](./random_number)
 - [animation_trial](./animation_trial)
+- [random_move](./random_move)
